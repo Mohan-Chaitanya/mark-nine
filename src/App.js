@@ -49,7 +49,7 @@ export default function App() {
           {booksData[`${genre}`].map((book) => (
             <li key={book.id}>
               {book.title}
-              <div>Rating: {book.rating}</div>
+              <div className="rating">Rating: {book.rating}</div>
             </li>
           ))}
         </ul>

@@ -13,6 +13,7 @@ li {
   width: 15rem;
   padding-top: 1rem;
   border-radius: 5px;
+  position: relative;
 }
 
 ul {
@@ -28,4 +29,9 @@ button {
   background-color: hsl(240, 66%, 12%);
   color: aliceblue;
   border-radius: 5px;
+}
+
+.rating {
+  font-family: cursive;
+  font-size: 80%;
 }
